@@ -14,16 +14,36 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: border;
-    font-size: 24pt;
+    font-size: 24px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, Geneva, Tahoma, sans-serif"
 
 }
-
+/*   nth-child(1) serve para escolher o elemento que eu quero selencionar */
 nav a:nth-child(1){
-    color: darkcyan
+    color: darkcyan;
 }
 
 nav a:hover {
-   font-size: 18.5pt;
+    background: black;
+    opacity: 0.5;
+    color: yellow;
+    text-transform: uppercase;
+    padding: 16px;
 }
 
+header {
+    width: 100%;
+    height: 100px;
+    background-image: url(../beluga-site/img/size_960_16_9_baleia-beluga.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+}
+
+header h1{
+    margin: 0 auto;
+    color: gainsboro;
+    text-transform: uppercase
+}
